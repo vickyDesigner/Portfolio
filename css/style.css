@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 10px;
+  font-family: "Fredoka One", cursive;
+}
+
+:root {
+  --backgrount-color: #1d1d1d;
+  --accent-color: gold;
+  --light-color: #aebf8a;
+  --text-color: #e7e6e6;
+  --dark-text: #444444;
+}
+
+html {
+  position: relative;
+}
+
+body {
+  background-color: var(--backgrount-color);
+}
+
+.navbar {
+  margin-top: 160px;
+  margin-bottom: 40px;
+  padding: 0;
+  text-align: center;
+  width: 230px;
+  height: 100%;
+  position: relative;
+  border-radius: 200px;
+  background-color: var(--light-color);
+  color: var(--dark-text);
+  border: var(--text-color) solid 3px;
+}
+
+.navbar-container {
+  position: relative;
+  display: inline;
+}
+
+.nav-list {
+  display: inline;
+  font-size: 25px;
+  color: var(--dark-text);
+  list-style: none;
+}
+
+.nav-list li {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+}
+
+.nav-list li a,
+.btn a {
+  color: var(--dark-text);
+}
+
+.nav-list li a:hover,
+.btn a:hover {
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: none;
+  text-shadow: black 3px 3px 4px;
+}
+
+.btn {
+  width: 230px;
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  border-radius: 200px;
+  background-color: var(--light-color);
+  font-size: 25px;
+  border: var(--text-color) solid 3px;
+}
+
+.intro-container {
+  padding: 20px;
+  display: grid;
+}
+.intro-text {
+  width: auto;
+  color: white;
+  float: left;
+}
+
+#text-left {
+  display: inline-block;
+  text-align: left;
+  font-size: 70px;
+  color: gold;
+  letter-spacing: 3px;
+}
+
+#text-right {
+  line-height: 75px;
+  margin-right: 50px;
+  text-align: right;
+  display: revert;
+  font-size: 74px;
+  color: var(--light-color);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#text-span {
+  font-size: 70px;
+  color: var(--accent-color);
+  letter-spacing: 2px;
+}
+
+/************ about *************/
+.about,
+.myworks {
+  text-align: center;
+}
+
+.about > h3,
+.myworks > h3 {
+  margin-top: 0;
+  font-size: 50px;
+  text-align: center;
+  color: #d9d9d9;
+  text-shadow: 0px 2px 4px #000000;
+}
+
+.what > h3 {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+  color: #d9d9d9;
+  text-shadow: 0px 2px 4px #000000;
+}
+
+.about-container {
+  margin-top: 20px;
+  float: right;
+  padding: 0;
+  text-align: center;
+  width: 230px;
+  height: 100%;
+  position: relative;
+  border-radius: 200px;
+  background-color: var(--light-color);
+  color: var(--dark-text);
+  border: var(--text-color) solid 3px;
+}
+
+.about-content {
+  display: inline-flex;
+  padding: 40px;
+}
+
+.what {
+  padding: 30px;
+}
+
+.about-img {
+  width: 440px;
+  height: 300px;
+
+  padding: 10px;
+}
+
+.about-img img {
+  width: 440px;
+  height: auto;
+}
+
+.about-msg {
+  margin-top: 70px;
+  line-height: normal;
+  color: var(--text-color);
+  width: 500px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.about-msg span {
+  color: gold;
+}
+
+.icon-bar {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.icon-bar > img {
+  padding: 15px;
+}
+
+.navbar-myworks {
+  position: relative;
+  width: 600px;
+
+  display: inline-block;
+  border-radius: 50px;
+  background-color: var(--light-color);
+  border: var(--text-color) solid 3px;
+}
+
+.navbar-myworks-container {
+  display: initial;
+}
+
+.nav-myworks-list {
+  display: inline-flex;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-myworks-list a {
+  color: var(--dark-text);
+}
+
+.nav-myworks-list a:hover {
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: none;
+  text-shadow: black 3px 3px 4px;
+}
+
+.nav-myworks-list li {
+  padding: 10px;
+}
+
+.feed {
+  margin-top: 20px;
+  display: flex;
+}
+
+.feedbox {
+  border-radius: 50px;
+  display: inline-block;
+  height: fit-content;
+  margin-right: 30px;
+  padding: 30px;
+}
+
+.feedtop {
+  border-radius: 30px;
+  position: relative;
+  display: inline-flex;
+  float: left;
+  background-color: gold;
+  padding: 5px;
+  width: 100%;
+}
+
+.feedtop > img {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+  float: left;
+  margin-left: 10px;
+}
+
+.feedtop > h5 {
+  padding: 10px;
+}
+
+.feedmain {
+  border-radius: 30px;
+  padding: 20px;
+  border: 3px solid gold;
+}
+
+.feedcmt {
+  padding: 20px;
+  display: inline-flex;
+  background-color: var(--text-color);
+  border-radius: 30px;
+}
+
+.gridbox {
+  margin: inherit;
+  height: fit-content;
+  display: inline-block;
+  background-color: var(--dark-text);
+  border-radius: 30px;
+}
+
+.grid-cmt {
+  padding: 10px;
+  font-weight: 400;
+}
+
+.grid-scroll {
+  scroll-behavior: smooth;
+}
+
+.gridbox section {
+  scroll-margin-block-start: 10px;
+  scroll-behavior: smooth;
+  display: inline-flex;
+}
+
+.gridbox h5 {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.grid {
+  border: 5px solid gold;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.grid > a {
+  width: 420px;
+}
+
+.grid img {
+  width: 250px;
+  padding: 0;
+}
+
+.contact-box {
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 40px;
+  width: 600px;
+  height: 350px;
+  background-color: gray;
+}
+.contact-box h3 {
+  font-size: 28px;
+}
+.contact-box h4 {
+  display: inline-block;
+
+  font-size: 20px;
+  padding: 0;
+}
+
+.contact-box h4 a {
+  text-decoration: none;
+  text-transform: none;
+  color: gold;
+  letter-spacing: 1.5px;
+}
+#iconsBox {
+  display: block;
+  float: left;
+  padding: 20px;
+  text-align: left;
+}
+#icons {
+  width: auto;
+  height: auto;
+  text-align: left;
+  padding: 0;
+}
+#hashtags {
+  padding: 0px;
+  float: left;
+  margin-top: 5px;
+}
+#likes {
+  display: block;
+  padding: 0;
+  color: #777;
+  text-align: left;
+  margin-bottom: 0;
+}
+#goLink {
+  display: inline-flex;
+  padding: 0;
+  font-size: 19px;
+}
+#goLink a {
+  padding: 0;
+  color: var(--dark-text);
+  text-shadow: 2px 2px 3px var(--light-color);
+  text-transform: none;
+  text-decoration: none;
+}
+
+#firstLink {
+  padding: 0;
+  margin: 0;
+
+  display: inline-block;
+}
+#feedcmt1,
+#feedcmt1 span {
+  display: inline-flex;
+  text-align: left;
+  padding: 0;
+}
+#nickName {
+  font-weight: 600;
+  padding: 0;
+  margin-right: 10px;
+}
+#nickName a {
+  text-transform: none;
+  text-decoration: none;
+  padding: 0;
+  color: var(--backgrount-color);
+  text-shadow: 4px 2px 4px gold;
+}
+#caption {
+  padding: 0;
+  float: left;
+}
+
+footer {
+  padding: 20px;
+  text-align: end;
+}
+
+#scrollToTopBtn {
+  background-color: gold;
+  border: none;
+  border-radius: 30%;
+  color: var(--dark-text);
+  cursor: pointer;
+  font-size: 18px;
+}
+#linkGit {
+  text-transform: none;
+  text-decoration: none;
+  color: skyblue;
+}

@@ -1,0 +1,75 @@
+@media only screen and (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+  .navbar,
+  .navbar-myworks {
+    width: auto;
+    padding: 0px;
+    margin: auto;
+  }
+  .nav-list,
+  .nav-myworks-list {
+    display: inline-flex;
+    font-size: 14px;
+  }
+  .btn {
+    display: none;
+  }
+  #text-left {
+    font-size: 25px;
+  }
+  #text-right {
+    font-size: 25px;
+    line-height: 25px;
+    text-align: right;
+    margin-right: 0px;
+  }
+
+  .about h3,
+  .myworks h3 {
+    font-size: 30px;
+  }
+  .about-content {
+    width: 400px;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .about-img {
+    width: 360px;
+  }
+  .about-img img {
+    width: inherit;
+  }
+  .about-msg {
+    margin: auto;
+    line-height: normal;
+    width: initial;
+    font-size: 14px;
+  }
+  .icon-bar {
+    padding: 10px;
+  }
+  .icon-bar img {
+    width: 100px;
+  }
+  .feed {
+    display: block;
+  }
+  .feedbox {
+    display: inline-block;
+    margin: initial;
+    padding: 20px;
+  }
+  .contact-box {
+    width: initial;
+  }
+
+  .contact-box h3 {
+    font-size: 25px;
+  }
+  .contact-box h4 {
+    font-size: 16px;
+  }
+}
